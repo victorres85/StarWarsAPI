@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main" class="container m-4">
+        STAR WARS
+
+        <form>
+            <b>Select your favorite Star Wars character</b>
+        </form><br>
+        <select id="characterList">
+            <option>1 Luke Skywalker</option>
+            <option>2 C-3PO</option>
+            <option>3 R2-D2</option>
+            <option>4 Darth Vader</option>
+            <option>5 Leia Organa</option>
+            <option>6 Owen Lars</option>
+            <option>7 Beru Whitesun lars</option>
+            <option>8 R5-D4</option>
+            <option>9 Biggs Darklighter</option>
+        </select>
+        </form>
+
+        <div id="content" class=" border border-primary rounded shadow-sm p-3 mb-5 col-4">
+            <div class="row">
+                <h3 id="nameCharacter" class="text-justify"></h3>
+            </div>
+            <div class="row">
+                <div class="col-6">Gender:</div>
+                <div class="col-6" id="characterGender"></div>
+            </div>
+            <div class="row">
+                <div class="col-6">Date od Birth:</div>
+                <div class="col-6" id="characterBirth_year"></div>
+            </div>
+            <div class="row">
+                <div class="col-6">Origin:</div>
+                <div class="col-6" id="characterOrigin"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
